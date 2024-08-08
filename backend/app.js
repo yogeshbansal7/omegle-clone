@@ -52,7 +52,7 @@ function pingServer() {
     req.end();
   }
   
-  setInterval(pingServer, 1000); 
+  setInterval(pingServer,8*60* 1000); 
   
 
 server.listen(port, () => {                                                                                         
